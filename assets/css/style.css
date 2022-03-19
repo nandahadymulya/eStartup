@@ -1,0 +1,49 @@
+* {
+  font-family: "Inter", sans-serif;
+}
+
+nav {
+  background-color: #fff !important;
+}
+
+nav .my-brand {
+  padding-left: 10px !important;
+}
+
+@media (min-width: 992px) {
+  nav .my-brand {
+    position: inline-block;
+    width: 100%;
+    /* background-color: #000; */
+    text-align: center;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.active,
+a:hover,
+nav a:hover {
+  color: green !important;
+}
+
+footer a {
+  color: #fff;
+}
+
+footer a:hover {
+  color: yellow !important;
+}
+
+.icon {
+  width: 100px;
+}
+
+.list-group-item {
+  padding: 0 !important;
+  background: none !important;
+  /* border: none !important; */
+}
